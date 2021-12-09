@@ -64,9 +64,10 @@ class App extends Component {
   {
      return (
       <View style={{ flex: 1, flexDirection: 'row', backgroundColor: 'yellow' }}>
-        <View style={{ flex: 1, backgroundColor: 'red' }}></View>
+        <View style={{ flex: 1, backgroundColor: 'yellow' }}></View>
         <View style={{ flex: 2, backgroundColor: 'green' }}></View>
         <View style={{ flex: 3, backgroundColor: 'blue' }}></View>
+        <View style={{ flex: 4, backgroundColor: 'red' }}></View>
       </View>
     )
   };
